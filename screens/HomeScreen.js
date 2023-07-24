@@ -1,14 +1,6 @@
 import React from 'react';
 import {
-  Dimensions,
-  FlatList,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+Dimensions,  FlatList,  SafeAreaView,  ScrollView,  StyleSheet,  Text,  TextInput,  TouchableOpacity,  View,
   Image,
   Animated,
 } from 'react-native';
