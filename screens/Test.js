@@ -15,7 +15,7 @@ import AssetExample from '../components/AssetExample';
 import { Card } from 'react-native-paper';
 
 
-const test = ({navigation, route}) => {
+const Test = ({navigation, route}) => {
   const item = route.params;
 
   return (
@@ -43,4 +43,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default test;
+export default Test;

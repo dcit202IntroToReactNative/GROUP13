@@ -7,7 +7,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import COLORS from './consts/colors';
 import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen';
-import test from './screens/Test';
+import Test from './screens/Test';
+import BookingDetailsScreen from './screens/BookingDetailsScreen';
 
 
 const Stack = createStackNavigator();
@@ -18,7 +19,9 @@ const App = () => {
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="DetailsScreen" component={DetailsScreen} />
-        <Stack.Screen name="bookingConf" component={test} />
+        <Stack.Screen name="bookingConf" component={Test} />
+        <Stack.Screen name="bookingDetails" component={BookingDetailsScreen} />
+
 
 
       </Stack.Navigator>

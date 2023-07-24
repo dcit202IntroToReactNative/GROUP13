@@ -9,10 +9,14 @@ import {
 } from 'react-native';
 import COLORS from '../consts/colors';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { useNavigation } from '@react-navigation/native';
+
 
 const DetailsScreen = ({navigation, route}) => {
   const item = route.params;
-
+  const handleButtonPress = () => {
+    navigation.navigate('bookingDetails'); // Change 'TestScreen' to the name of the screen you want to navigate to
+  };
   return (
     <ScrollView
       showsVerticalScrollIndicator={false}
@@ -102,7 +106,7 @@ const DetailsScreen = ({navigation, route}) => {
           </View>
         </View>
         <View style={style.btn}>
-          <Text style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
+          <Text onPress={handleButtonPress} style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
             Book Now
           </Text>
         </View>
