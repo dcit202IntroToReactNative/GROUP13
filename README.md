@@ -1,5 +1,5 @@
 # GROUP13
-#App overview
+# App overview
 The app works by providing users with a platform to search for and book hostels on campus. 
 Here is an overview of how the app typically functions: 
 1.Before the user can acess the hostels he/she needs to login or sign up if he/she is new a new user 
@@ -9,7 +9,7 @@ Each hostel listing will provide detailed information about the hostel, includin
 The app will typically provide a secure payment gateway for users to complete their booking 
 4.Users can also input their personal information,edit them anytime and view their reservations under the user profile
 
-#Members
+# Members
 Hello, we are Group 13! We created an app called Resident (thank you Nadia and Bel.) 
 Resident shows you hostels on campus and allows you to book rooms in them. 
 We created it to make the experience of hostel booking an interactive and user-friendly one. 
