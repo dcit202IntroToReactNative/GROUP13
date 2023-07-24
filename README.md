@@ -18,29 +18,33 @@ Each group member will now introduce themselves and state their contribution to 
 My name is Kwame Anderson. 
 I acted as the group leader for this project. 
 I was also responsible for creating the screens for the home screen and reviews of our mobile application. 
-I also wrote the logic behind those screens. My username: K-andy13 My Index number: 10985232
+I also wrote the logic behind those screens. 
+My username: "K-andy13" 
+My Index number: "10985232"
 
-My name is Wilson Deku, I created the splash screen, log in and register screens(username:Coded1234 ID:10971611)
+My name is Wilson Deku, 
+log in and register screens
+(username: "Coded1234" ID:"10971611")
 
 I am Dzorka Bless.  
 Username= "1dzorkabless" 
-ID= 10946997
+ID= "10946997"
 
 I am Austin Atsu. 
 I am behind the Readme file. 
-My Username: Austin-10962018 
-ID: 10962018
+My Username: "Austin-10962018"
+ID: "10962018"
 
 Nadia Parker is my name.
 I am responsible for creating the splash
-User name;Parkernadia 
-ID; 10968172
+User name; "Parkernadia" 
+ID; "10968172"
 
 I am Thomas Barden. 
 I created the booking summary screen and confirmation. 
-Username:'Thomas10954047' 
-Id='10954047'
+Username:"Thomas10954047"
+Id="10954047"
 
 I am kwedjo Asante. 
-Username='AsanteKwadjoAdjei' 
-id='10981430'
+Username="AsanteKwadjoAdjei"
+id="10981430"
