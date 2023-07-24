@@ -84,7 +84,7 @@ const HomeScreen = ({navigation}) => {
           <View style={style.priceTag}>
             <Text
               style={{color: COLORS.white, fontSize: 20, fontWeight: 'bold'}}>
-              ${hotel.price}
+              GH₵{hotel.price}
             </Text>
           </View>
           <Image source={hotel.image} style={style.cardImage} />
@@ -114,7 +114,7 @@ const HomeScreen = ({navigation}) => {
                 <Icon name="star" size={15} color={COLORS.orange} />
                 <Icon name="star" size={15} color={COLORS.grey} />
               </View>
-              <Text style={{fontSize: 10, color: COLORS.grey}}>365reviews</Text>
+              <Text style={{fontSize: 10, color: COLORS.grey}}>365 reviews</Text>
             </View>
           </View>
         </Animated.View>
@@ -153,13 +153,13 @@ const HomeScreen = ({navigation}) => {
       <View style={style.header}>
         <View style={{paddingBottom: 15}}>
           <Text style={{fontSize: 30, fontWeight: 'bold'}}>
-            Find your hotel
+            Find your 
           </Text>
           <View style={{flexDirection: 'row'}}>
-            <Text style={{fontSize: 30, fontWeight: 'bold'}}>in </Text>
+            <Text style={{fontSize: 30, fontWeight: 'bold'}}> </Text>
             <Text
               style={{fontSize: 30, fontWeight: 'bold', color: COLORS.primary}}>
-              Paris
+              Campus Home
             </Text>
           </View>
         </View>

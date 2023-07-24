@@ -7,6 +7,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import COLORS from './consts/colors';
 import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen';
+import test from './screens/Test';
+
 
 const Stack = createStackNavigator();
 const App = () => {
@@ -16,6 +18,9 @@ const App = () => {
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="DetailsScreen" component={DetailsScreen} />
+        <Stack.Screen name="bookingConf" component={test} />
+
+
       </Stack.Navigator>
     </NavigationContainer>
   );
